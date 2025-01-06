@@ -1,6 +1,6 @@
 # Импортируем необходимые компоненты
 import logging
-
+import os
 from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.ext import MessageHandler
 from telegram.ext import Updater
