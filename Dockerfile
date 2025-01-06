@@ -8,8 +8,8 @@ RUN pip install telebot
 
 RUN pip install parse
 
-RUN pip install feedparser
+RUN pip install telegram
 
-RUN pip install load_dotenv
+RUN pip install telegram.ext
 
 CMD ["python", "bot.py"]
