@@ -4,7 +4,7 @@ import os
 from telegram.ext import CommandHandler, CallbackQueryHandler
 from telegram.ext import MessageHandler
 from telegram.ext import Updater
-from telegram.ext import Filters
+from telegram.ext import Filters as Filter
 
  #from settings import TG_TOKEN
 #from settings import TG_API_URL
