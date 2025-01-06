@@ -6,10 +6,11 @@ from telegram.ext import MessageHandler
 from telegram.ext import Updater
 from telegram.ext import Filters
 
-from settings import TG_TOKEN
-from settings import TG_API_URL
+ #from settings import TG_TOKEN
+#from settings import TG_API_URL
 from handlers import *
-
+TG_TOKEN = os.getenv("TG_TOKEN")
+TG_API_URL = os.getenv("TG_TOKEN")
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO,
                     filename='bot.log'
