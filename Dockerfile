@@ -10,6 +10,4 @@ RUN pip install python-telegram-bot
 
 RUN pip install telegram
 
-RUN pip install telegram.ext
-
 CMD ["python", "bot.py"]
